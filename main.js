@@ -5,9 +5,9 @@ function sumResistance(resistances) {
 }
 
 // Ejemplos de uso para sumResistance
-console.log(sumResistance([-1, 5, 6, 3])); // "15 ohmios"
-console.log(sumResistance([14, 3.5, 6])); // "23.5 ohmios"
-console.log(sumResistance([8, 15, 100])); // "123 ohmios"
+console.log(sumResistance([-1, 5, 6, 3])); 
+console.log(sumResistance([14, 3.5, 6])); 
+console.log(sumResistance([8, 15, 100])); 
 
 // Función para dividir un número en dos mitades
 function numDiv(num) {
@@ -16,8 +16,8 @@ function numDiv(num) {
 }
 
 // Ejemplos de uso para numDiv
-console.log(numDiv(4)); // [2, 2]
-console.log(numDiv(10)); // [5, 5]
+console.log(numDiv(4)); 
+console.log(numDiv(10)); 
 
 // Función para encontrar el nombre de una sociedad secreta
 function secretName(members) {
@@ -25,9 +25,9 @@ function secretName(members) {
 }
 
 // Ejemplos de uso para secretName
-console.log(secretName(["Esperanza", "Franco", "Nia"])); // "EFN"
-console.log(secretName(['Phoebe', 'Ross', 'Chandler', 'Joey', 'Monica', 'Rachel'])); // "CJMPRR"
-console.log(secretName(['Harry', 'Ron', 'Hermione'])); // "HHR"
+console.log(secretName(["Esperanza", "Franco", "Nia"]));
+console.log(secretName(['Phoebe', 'Ross', 'Chandler', 'Joey', 'Monica', 'Rachel'])); 
+console.log(secretName(['Harry', 'Ron', 'Hermione'])); 
 
 // Función para mostrar el estado en línea de una lista de usuarios
 function onlineStatus(users) { 
@@ -39,7 +39,7 @@ function onlineStatus(users) {
 }
 
 // Ejemplos de uso para onlineStatus
-console.log(onlineStatus(['mockIng99', 'J0eyPunch', 'glassedFer'])); // "mockIng99, J0eyPunch y 1 más en línea"
+console.log(onlineStatus(['mockIng99', 'J0eyPunch', 'glassedFer'])); 
 
 // Función para crear una matriz de múltiplos
 function arrayMultiplos(numero, longitud) {
@@ -47,8 +47,8 @@ function arrayMultiplos(numero, longitud) {
 }
 
 // Ejemplos de uso para arrayMultiplos
-console.log(arrayMultiplos(2, 10)); // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-console.log(arrayMultiplos(17, 6)); // [17, 34, 51, 68, 85, 102]
+console.log(arrayMultiplos(2, 10)); 
+console.log(arrayMultiplos(17, 6)); 
 
 // Función para determinar si una matriz es positivamente dominante
 function positiveDom(arr) {
@@ -57,8 +57,8 @@ function positiveDom(arr) {
 }
 
 // Ejemplos de uso para positiveDom
-console.log(positiveDom([-1, -3, -5, 4, 6767])); // false
-console.log(positiveDom([1, -2, 3, -4, 5])); // true
+console.log(positiveDom([-1, -3, -5, 4, 6767])); 
+console.log(positiveDom([1, -2, 3, -4, 5])); 
 
 // Función para calcular el promedio antípoda
 function antipodeAverage(arr) {
@@ -69,6 +69,6 @@ function antipodeAverage(arr) {
 }
 
 // Ejemplos de uso para antipodeAverage
-console.log(antipodeAverage([1, 2, 3, 5, 22, 6])); // [3.5, 12, 4]
-console.log(antipodeAverage([1, 2, 3, 4, 5, 6])); // [3.5, 3.5, 3.5]
-console.log(antipodeAverage([1, 2, 3, 4, 5])); // [3, 3]
+console.log(antipodeAverage([1, 2, 3, 5, 22, 6])); 
+console.log(antipodeAverage([1, 2, 3, 4, 5, 6])); 
+console.log(antipodeAverage([1, 2, 3, 4, 5])); 
